@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelloTillStopMain",
+            "request": "launch",
+            "mainClass": "HelloTillStopMain",
+            "projectName": "OOP2CODECHALLENGES_f6042e4a"
+        },
+        {
+            "type": "java",
             "name": "Greeter",
             "request": "launch",
             "mainClass": "Greeter",
