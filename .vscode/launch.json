@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GradingSystem",
+            "request": "launch",
+            "mainClass": "GradingSystem",
+            "projectName": "OOP2CODECHALLENGES_f6042e4a"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Custom launch",
+            "targetCreateCommands": [
+                "target create ${workspaceFolder}/<program>"
+            ],
+            "processCreateCommands": [
+                "settings set target.run-args value1 value2 value3",
+                "process launch"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "attach",
+            "name": "",
+            "pid": "${command:pickMyProcess}"
+        }
+    ]
+}
