@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Greeter",
+            "request": "launch",
+            "mainClass": "Greeter",
+            "projectName": "OOP2CODECHALLENGES_f6042e4a"
+        },
+        {
+            "type": "java",
             "name": "GradingSystem",
             "request": "launch",
             "mainClass": "GradingSystem",
